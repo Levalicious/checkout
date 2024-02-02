@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://github.com/actions/checkout"><img alt="GitHub Actions status" src="https://github.com/actions/checkout/workflows/test-local/badge.svg"></a>
+  <a href="https://github.com/Levalicious/checkout"><img alt="GitHub Actions status" src="https://github.com/Levalicious/checkout/workflows/test-local/badge.svg"></a>
 </p>
 
 # Checkout
@@ -59,6 +59,8 @@ For more details, see [Contexts and expression syntax for GitHub Actions](https:
 
 ## v1.1.0 (unreleased)
 - Persist `with.token` or `${{ github.token }}` into checkout repository's git config as `http.https://github.com/.extraheader=AUTHORIZATION: basic ***` to better support scripting git
+
+- bump
 
 # License
 
